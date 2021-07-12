@@ -8,7 +8,7 @@ const App = () => {
 
     return(
         <div className="app-container">
-            <h1 className="app-heading">Users Dashboard</h1>
+            <h1 className="app-heading">Users dashboard</h1>
             <div className="app-form-status">
                 <UsersForm />
                 <UsersStatus />
