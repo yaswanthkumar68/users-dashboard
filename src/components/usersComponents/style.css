@@ -1,0 +1,187 @@
+.app-container{
+    margin:2em;
+    min-height:85vh;
+    height:auto;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    background-color: #899694;
+    padding:1.5em;
+}
+
+.app-heading{
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+
+.app-form-status{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.userform-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    flex-wrap: wrap;
+}
+
+.userform-input{
+    height: 20px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #A4815C;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    color: #1E201D;
+}
+
+input[type="checkbox"]{
+    width: 30px; 
+    height: 20px;
+    cursor: pointer;
+}
+.userform-checkbox-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.userform-checkbox-text{
+    font-size: 20px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.userform-button-save{
+    width: 50px;
+    height: 35px;
+    padding: 4px;
+    background-color: rgba(26, 192, 76, 0.699);
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+.userstatus-container{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+.userstatus-button-activate{
+    width: 100px;
+    height: 35px;
+    padding: 4px;
+    background-color: rgba(15, 228, 15, 0.699);
+    color:#1E201D;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+.userstatus-button-deactivate{
+    width: 120px;
+    height: 35px;
+    padding: 4px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+
+.userslist-container{
+    background-color: whitesmoke;
+    max-width: 70vw;
+    width: auto;
+    margin: 20px auto;
+    min-height:50vh;
+    height:auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    padding:16px;
+}
+
+.userlist-heading-input{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.userlist-heading{
+    color:#1E201D;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+}
+.userlist-search{
+    height: 20px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #A4815C;
+    border-radius: 8px;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    
+}
+
+.userinfo-container{
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    /* margin: 0 -4px -4px 0; */
+    margin-left: 40px;
+}
+
+
+
+.userinfo-details{
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 150px;
+    width: 150px;
+    margin: 1em;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform .5s ease;
+}
+
+
+.userinfo-button-delete{
+    width: 70px;
+    height: 35px;
+    padding: 4px;
+    background-color: rgba(233, 36, 10, 0.699);
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
+.userinfo-name{
+    font-family: 'Rubik', sans-serif;
+}
+
+.userinfo-details:hover{
+    cursor: pointer;
+    /* box-shadow: 0px 0px 25px rgb(98, 4, 250); */
+    transform: scale(1.05);
+}
